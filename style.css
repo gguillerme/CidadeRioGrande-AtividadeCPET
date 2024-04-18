@@ -1,0 +1,72 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f6f1e9; /* cor de papel antigo */
+    color: #444; /* cor do texto */
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222; /* cor mais escura para o cabeçalho */
+    font-size: 36px;
+}
+
+/* Estilo dos subtítulos */
+h2 {
+    color: #222; /* cor mais escura para os subtítulos */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 15px;
+    text-align: justify; /* justificar o texto */
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Estilo das imagens */
+img {
+    display: block;
+    margin: 20px auto; /* centralizar as imagens */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos títulos das seções */
+h3 {
+    color: #0066cc; /* cor mais vibrante para os títulos das seções */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Estilo da largura máxima do conteúdo */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+    background-color: #faf5e1; /* cor de fundo das seções */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d2b48c; /* cor da borda para imitar um papiro */
+}
